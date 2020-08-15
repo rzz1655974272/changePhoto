@@ -1,0 +1,28 @@
+<view class="top">
+  <text style="color:red">我是一款成熟的软件</text>
+</view>
+
+<view class="body_img" bindtap="save">
+  <image mode="aspectFit" style="height:360rpx" src="{{photos}}"></image>
+</view>
+
+<view class="body">
+  <view class="body_form">
+    <form bindsubmit="uploadImg">
+      <button class="chooseImg_btn" type="primary" bindtap="chooseImg">选择照片</button>
+      <text style="color:red;font-size:40rpx;">请选择您想要转换的方式：</text>
+      <view class="radio_method">
+       <radio-group bindchange="radioChange">
+        <label class="radio_check" wx:for="{{items}}" wx:key="{{item.value}}">
+          <view><radio value="{{item.value}}" checked="true"/></view>
+          <view>{{item.name}}</view>
+        </label>
+      </radio-group>
+      </view>
+      <button class="submit_btn" form-type="submit">提交</button>
+    </form>
+  </view>
+</view>
+<view class="foot">
+  当前转换照片总数：<text style="color:red">{{imgCount}}</text>
+</view>

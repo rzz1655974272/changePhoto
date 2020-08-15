@@ -1,0 +1,50 @@
+page{
+ background-color: azure;
+}
+.top{
+  height: 100rpx;
+  text-align: center;
+  font-size: 44rpx;
+}
+.body_img{
+  height: 360rpx;
+  width: 50%;
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 5rpx;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.body_form{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.chooseImg_btn{
+  margin-top: 20rpx;
+  background: linear-gradient(to right, #ead6ee, #a0f1ea); 
+}
+.submit_btn{
+  margin-top: 40rpx;
+  background: linear-gradient(to right,#f9957f, #f2f5d0, #aebaf8, #c973ff );
+  width: 80%;  
+  border-radius: 50rpx;
+}
+.radio_method{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.radio_check{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+.foot{
+  font-size: 22rpx;
+  margin-left: 10rpx;
+  color: slategray;
+}

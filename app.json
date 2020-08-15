@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/test04/test04",
+    "pages/test03/test03",
+    "pages/test02/test02",
+    "pages/test01/test01"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "证件照换底色",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/test04/test04",
+        "iconPath": "./icons/index.png",
+        "selectedIconPath": "./icons/index01.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/test03/test03",
+        "iconPath": "./icons/ui.png",
+        "selectedIconPath": "./icons/ui01.png",
+        "text": "界面"
+      },
+      {
+        "pagePath": "pages/test02/test02",
+        "iconPath": "./icons/extend.png",
+        "selectedIconPath": "./icons/extend01.png",
+        "text": "扩展"
+      },
+      {
+        "pagePath": "pages/test01/test01",
+        "iconPath": "./icons/my.png",
+        "selectedIconPath": "./icons/my01.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
